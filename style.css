@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('croissant.jpg') no-repeat center center/cover;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+
+}
+
+.FirstProfileBox {
+    position: absolute;
+    background-color: rgb(206, 127, 31);
+    width: 230px;
+    height: 40px;
+    left: 15px;
+    top: 10px;
+    border-radius: 3px;
+    z-index: 1;
+}
+#ButtonLogin {
+    position: absolute;
+    visibility: hidden;
+    background-color: rgb(218, 175, 32);
+    height: 40px;
+    width: 50px;
+    top: 105px;
+    left: 220px;
+    z-index: 3;
+    border-radius: 10px;
+    font-size: 12px;
+    border: none;
+}
+
+#ButtonCopy {
+    position: absolute;
+    visibility: hidden;
+    background-color: #ad3621;
+    width: 30px;
+    height: 40px;
+    top: 105px;
+    left: 205px;
+    z-index: 2;
+    border-radius: 5px;
+    border: none;
+}
+#Copy {
+    position: relative;
+    transform: rotate(90deg);
+    display: inline-block;
+    right: 12px;
+    font-size: 12px;
+}
+
+h1 {
+    font-family: 'Courier New', monospace;
+    overflow: none;
+    position: relative;
+    font-size: 20px;
+    margin: 10px 0;
+    top: 100px;
+    color: #36393F;
+    user-select: none;
+    z-index: 1;
+}
+
+p {
+    font-size: 17px;
+    z-index: 1;
+}
+
+a {
+    position: absolute;
+    color:rgb(206, 127, 31);
+    font-size: 12px;
+    left: 220px;
+    top: 38px;
+    z-index: 1;
+}
+
+#LoginButtonText {
+    font-family: 'Courier New', monospace;
+    position: relative;
+    font-size: 30px;
+    border: none;
+    top: 1px;
+    color: #36393F;
+    font-weight:bold;
+}
+
+.DoSomethingBox {
+    position: absolute;
+    background-color: rgb(206, 127, 31);
+    width: 400px;
+    height: 100px;
+    top: 105px;
+}
+
+.InputBox {
+    position: relative;
+    width: 260px;
+    height: 50px;
+    border-radius: 3px;
+    bottom: 30px;
+    left: 20px;
+    background-color: #36393F;
+}
+
+.TokenText {
+    font-family: 'Courier New', monospace;
+    position: relative;
+    user-select: none;
+    font-size: 13px;
+    height: 13px;
+    width: 60px;
+    border-radius: 2px;
+    font-weight:550;
+    color: #36393F;
+    background-color: rgb(206, 127, 31);
+}
+
+#InputToken {
+    background-color: #23272A;
+    position: relative;
+    color: white;
+    border: none;
+    top: 5px;
+    outline: 1px;
+    width: 240px;
+}
+
+.ProfileBox {
+    display: flex;
+    visibility: hidden;
+    overflow: hidden;
+    position: absolute;
+    background-color: #36393F;
+    width: 260px;
+    height: 61px;
+    left: 20px;
+    top: 95px;
+    border-radius: 3px;
+}
+
+
+#ProfileUsername {
+    position: relative;
+    text-align: left;
+    bottom: 11px;
+    font-size: 20px;
+    left: 50px;
+    color:#36393F;
+}
+
+.CroissantVersion {
+    position: absolute;
+    background-color: rgb(206, 127, 31);
+    width: 70px;
+    border-radius: 3px;
+    top: 0px;
+    left: 233px;
+    font-size: 14px;
+}
+
+#ProfileImg {
+    position: absolute;
+    width: 30px;
+    left: 10px;
+    bottom: 5px;
+    border-radius: 10px;
+}
